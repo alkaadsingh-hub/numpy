@@ -1,0 +1,114 @@
+#arange fuction is used 
+
+import numpy as np
+
+
+
+#1. arange function.
+# function is used to create a numpy array with a range of values. It takes three parameters: start, stop, and step. The start parameter is the starting value of the range, the stop parameter is the ending value of the range (not included in the array), and the step parameter is the difference between each value in the range.
+
+a = np.arange(5,13)   #first value is starting value and second value is ending value edning value is not included in the array
+print(a)
+
+
+
+# #2. reshape function.
+# #we use reshape fuction with arange function to create a 2D array or matrix
+b = np.arange(1,10).reshape(3,3)    #where 3 is number of rows and 3 is number of columns
+print(b)
+
+
+
+#3. ones function.
+#we use thisfunction forinstance initialization of weights in neural networks. It creates an array filled with ones.
+
+c = np.ones((4,5))   #4 is number of rows and 5 is number of columns  provide ONES in TUPLE form
+print(c)
+
+
+
+#4. zeros function.
+#we use this function for instance initialization of weights in neural networks. It creates an array filled with zeros.
+
+d = np.zeros((7,2))   #7 is number of rows and 2 is number of columns provide ZEROS in TUPLE form
+print(d)
+
+
+
+#5.random function
+
+e = np.random.random((5,4))  #it will generate random numbers from zero to one.
+print(e)
+
+#(the above three {ones, zeros and random}are methods to initialize array and used for instance initialization of weights in neural networks.)
+
+
+
+#6. np.linspace() function.
+# (linear space)
+#it generates linearly seperable points and the difference of two points is equal.
+#example - distance between two points is always equal.
+
+f = np.linspace(1, 10,7)  #where 1 lower range ,10 is upper range and 7 is the no. of element we want to print
+print(f)
+
+
+
+
+# #7. np.identity() function.
+# #identity matrix is a square matrix in which all the elements of the principal diagonal are ones and all other elements are zeros. It is denoted by I.
+
+g = np.identity(3)
+print(g)
+
+
+
+# THE ABOVE ALL FUNCTIONS ARE USED TO CREATE A NUMPY ARRAY. THESE ARE THE MOST COMMONLY USED FUNCTIONS IN NUMPY.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

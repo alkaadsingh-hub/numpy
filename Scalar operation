@@ -1,0 +1,26 @@
+#scalar operation
+#arithematic
+
+import numpy as np
+
+a = np.arange((10))
+b = np.arange(16).reshape(4,4)
+c = np.arange(18).reshape(3,3,2)
+
+print(a*2)
+print(b+5)
+print(c%2)
+
+#can perform all the arithematic operations
+
+
+
+#Relational operator
+print(c>3)
+print(b<9)
+print(a==2)
+
+
+
+
+

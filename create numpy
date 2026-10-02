@@ -1,0 +1,55 @@
+import numpy as np
+# # we can create a numpy using function called np.array().......for that it need a list 
+a = np.array([35,75,88,90,75])     #this is a 1D array or VECTOR
+print(a)
+print(type(a))
+
+
+
+# #2D array
+b = np.array([["a", "b", "c"], ["d", "e", "f"]])     #THIS 2D ARRAY OR MATRIX
+print(b)
+print(type(b))
+
+
+
+#3D array
+c = np.array([[[1, 2, 3], [4, 5, 6]], [[7, 8, 9], [10, 11, 12]]])     #THIS IS A 3D ARRAY OR TENSOR
+print(c)
+
+
+
+# #data type of array
+d = np.array([52, 75, 88, 90], dtype=float)
+print(d)
+print(type(d))
+
+e = np.array([2, 3, 4, 5, 0, 10, -1], dtype=bool)   #will give true for all non-zero values and false for zero values.
+print(e)
+
+
+f = np.array([30, 20, 5, 3], dtype=complex)
+print(f)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

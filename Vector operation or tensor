@@ -1,0 +1,78 @@
+#VECTOR OPERATION
+#when operation is performed on two numpy array is called as vector operation 
+
+import numpy as np
+
+
+a = np.arange((10))
+b = np.arange(6).reshape(3,2)
+c = np.arange(8).reshape(3,2)
+
+#arithmetic operator
+print(c+b)
+print(a/b)
+print(c%a)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
