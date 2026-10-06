@@ -15,8 +15,8 @@ import numpy as np
 a = np.arange(12).reshape(3,4)
 b = np.arange(12,24).reshape(3,4)
 
-# print(a)
-# print(b)
+ print(a)
+ print(b)
 
 
 print(np.hstack((a,b)))
