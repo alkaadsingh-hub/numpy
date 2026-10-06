@@ -17,15 +17,11 @@ print(a1[7])
 print(a1[-1])
 
 
-
-
 # accessing 2d array through indexing
 
 print(a2[1,4])    # first we write row(1) and then we mention coloumn(4)
 print(a2[0,3])    # first we write row(0) and then we mention coloumn(3)
 print(a2[1,2])    # first we write row(1) and then we mention coloumn(2)
-
-
 
 
  
@@ -36,14 +32,9 @@ print(a3[1,1,0])        # first we need to print dimension of array i.e. 3D arra
 
 
 
-                                           
-
-
-
 ##SLICING
 
 #slicing for 1D array:-
-
 
 print(a1[1:5])        
             
@@ -84,9 +75,6 @@ print(a4[1,:,1])      #this will print the 1st 2d array of a4 and then it will p
 print(a4[2,1:,1:])
 
 print(a4[::2,0,::2])    #this will print the 0th and 2nd 2d array of a4 and then it will print the 0th row and 0th and 2nd coloumn of that 2d array.
-
-
-
 
 
 
