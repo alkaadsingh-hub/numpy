@@ -46,33 +46,24 @@ print(np.prod(a,axis=0))
 
 
 
-
-
-
 #statistical operation
-
 
 #1.mean function
 
 print(np.mean(a))    #we can also axis or can print mean of all rows and coloumn seperately by using axis =1,axis=0 respectively
-
 
 #2. meadian 
 #it will sort the element and provide mid value 
 
 print(np.median(a))
 
-
 #3. standard deviation
 
 print(np.std(a))
 
-
 #4. variance
 
 print(np.var(a))
-
-
 
 
 
@@ -119,9 +110,7 @@ print(np.exp(a2))
 
 
 
-
-
- #round function   it round  off the value to its nearest integer 
+#round function   it round  off the value to its nearest integer
 a3 = np.random.random((2,3))*100
 print(a3)      #got floating values
 #now i want  to print a3 in int so we will use round function todo that
