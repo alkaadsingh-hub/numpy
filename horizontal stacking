@@ -1,0 +1,25 @@
+#STACKING:-
+#stacking means adding two or more arrays.
+#stacking can be done by using two methods:
+#stacking is used in real world to gather all the similar data from different platform eg:-sql, api, web app.
+
+
+#1. horizontal stacking
+#2. vertical stacking 
+
+
+#1. horizontal stacking :-
+
+import numpy as np
+
+a = np.arange(12).reshape(3,4)
+b = np.arange(12,24).reshape(3,4)
+
+# print(a)
+# print(b)
+
+
+print(np.hstack((a,b)))
+
+
+# SHAPE OF ARRAY MUST BE SAME .....THEN ONLY STACKING WILL WORK

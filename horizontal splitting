@@ -1,0 +1,22 @@
+#SPLITTING
+#splitting is just opposite of stacking.
+# classified in two category:-
+
+#1.horizontal splitting
+#2.vertical splitting
+
+import numpy as np
+
+
+a = np.arange(12).reshape(3,4)
+b = np.arange(12,24).reshape(3,4)
+
+
+print(np.hsplit(a,2))    # this will divide array in 2 parts...(a,2) "a" is name of array whereas 2 is the parts of array. 
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+#RAVEL:-
+#ravel convert the 2d, 3d, 4d, .........even 100D array in to 1D array.
+
+import numpy as np
+
+
+
+a = np.arange(30).reshape(10,3)   #2d array
+
+print(a)
+
+print(a.ravel())   #itwill convert 2d array in to1d array
+
+
+
+b = np.arange(30).reshape(5,3,2)   #(5,3,2) 5 is total array 3 is rows ineach array 2 is column ineach array 
+
+print(b)
+
+print(b.ravel())
+
+

@@ -1,0 +1,33 @@
+#TRANSPOSE:-
+#transpose convert rows in to column and vise versa.
+
+import numpy as np
+
+a = np.arange(12).reshape(3,4)
+
+print(a)
+
+print(np.transpose(a))      #it will print 4 rows and 3 column (4,3) while the  original matrix was of (3,4)
+
+
+
+                #OR THERE IS ANOTHER SYNTAX 
+print(a.T)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

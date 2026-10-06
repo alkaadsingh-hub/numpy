@@ -1,0 +1,37 @@
+#ITERATING:-
+#Iterating means repeating a process step-by-step, usually going through each item in a collection one at a time.
+
+import numpy as np
+
+
+a = np.arange(9).reshape(3, 3)
+b = np.arange(12).reshape(3, 4)
+c = np.arange(27).reshape(3,3,3)
+
+# print(a)
+# print(b)
+# print(c)
+
+for i in a:
+    print(i)       #it will print all the iten of an array 
+
+
+
+for i in b:
+    print(i)
+
+
+
+for i in c:
+    print((i))
+
+
+##applying loops on an individual item:-
+#nditer isin built function 
+for i in np.nditer(c):   # "c" is 3d array so.."nditer" will convert 3d array in to 1d array and then print all the element of an array      
+    print(i)             #it will convert in 1D array and afterthat it will print all the elemetn of an array 
+
+
+
+
+

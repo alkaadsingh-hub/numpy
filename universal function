@@ -1,0 +1,45 @@
+import numpy as np
+arr = np.array([3, 4])
+
+
+##square root of array
+print(np.sqrt(arr))
+
+
+#exponential of array
+print(np.exp(arr))   #this will give the value of e^x where x is the element of array and e is the base of natural logarithm which is equal to 2.718281828459045
+
+
+#sine of array
+print(np.sin(arr))   #this will give the value of sin(x) where x is
+
+#natural log
+print(np.log(arr))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
