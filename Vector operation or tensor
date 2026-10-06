@@ -12,6 +12,10 @@ c = np.arange(8).reshape(3,2)
 print(c+b)
 print(a/b)
 print(c%a)
+print(a-b)
+print(a*b)
+print(a**b)
+print(a//b)
 
 
 
