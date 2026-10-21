@@ -23,3 +23,11 @@ print(np.hstack((a,b)))
 
 
 # SHAPE OF ARRAY MUST BE SAME .....THEN ONLY STACKING WILL WORK
+
+
+
+
+
+
+
+
